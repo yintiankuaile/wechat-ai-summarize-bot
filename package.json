@@ -24,6 +24,7 @@
   },
   "scripts": {
     "watch": "npx tsc & npx pm2 start dist/main.js --attach",
+    "stop": "npx tsc & npx pm2 stop dist/main.js --attach",
     "summarize": "npx ts-node ./src/summarize.ts",
     "build": "npx tsc"
   },
